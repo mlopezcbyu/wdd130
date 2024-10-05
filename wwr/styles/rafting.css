@@ -1,0 +1,49 @@
+:root { 
+    --primary-color: #780000;  /* Deep red */
+    --secondary-color: #C1121F; /* Vibrant red */
+    --accent1-color: #FDF0D5; /* Soft cream */
+    --accent2-color: #003049; /* Dark teal */
+    --text-color: #FDF0D5;    /* Cream for text */
+    --bg-color: #003049;      /* Dark teal for background */
+    --footer-bg: #C1121F;     /* Footer background red */
+    --img-shadow: 0 0 30px gray; 
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: var(--bg-color); /* Apply background color */
+    color: var(--text-color);  /* Apply text color */
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: var(--primary-color); /* Headings primary color */
+}
+
+nav a {
+    color: var(--accent1-color); /* Accent color for nav links */
+    text-decoration: none;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: var(--img-shadow);  /* Add shadow to images */
+}
+
+footer {
+    background-color: var(--footer-bg);  /* Footer background */
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: var(--text-color); /* Footer text color */
+}
+
+footer .sociallinks img {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
