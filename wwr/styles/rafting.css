@@ -20,9 +20,32 @@ h1, h2 {
     color: var(--primary-color); /* Headings primary color */
 }
 
+.header-content {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Logo on the left, nav on the right */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add some padding */
+}
+
+.header-content nav {
+    display: flex; /* Horizontal layout for nav links */
+    justify-content: flex-end; /* Align links to the right */
+}
+
+
+.logo {
+    width: 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
 nav a {
     color: var(--accent1-color); /* Accent color for nav links */
     text-decoration: none;
+    padding: 10px;
 }
 
 .hero img {
@@ -30,6 +53,21 @@ nav a {
     width: 100%;
     height: auto;
     box-shadow: var(--img-shadow);  /* Add shadow to images */
+}
+
+section {
+    margin: 20px 0;
+}
+
+section img {
+    width: 100px;
+    height: auto;
+}
+
+figure {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
 }
 
 footer {
@@ -46,4 +84,14 @@ footer .sociallinks img {
     width: 40px;
     height: 40px;
     margin: 5px;
+}
+.centered-image {
+    text-align: center; /* Center the text and images inside */
+    margin: 20px 0; /* Optional: add spacing around the images */
+}
+
+.centered-image img {
+    width: 100%; /* Optional: make images responsive */
+    max-width: 300px; /* Limit the max width for better layout */
+    height: auto; /* Maintain aspect ratio */
 }
