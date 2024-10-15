@@ -95,3 +95,13 @@ footer .sociallinks img {
     max-width: 300px; /* Limit the max width for better layout */
     height: auto; /* Maintain aspect ratio */
 }
+
+/* Headers*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* General text */
+body, p {
+    font-family: 'Lato', sans-serif;
+}
