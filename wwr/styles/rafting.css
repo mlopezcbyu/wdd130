@@ -32,7 +32,6 @@ h1, h2 {
     justify-content: flex-end; /* Align links to the right */
 }
 
-
 .logo {
     width: 150px;
 }
@@ -85,6 +84,7 @@ footer .sociallinks img {
     height: 40px;
     margin: 5px;
 }
+
 .centered-image {
     text-align: center; /* Center the text and images inside */
     margin: 20px 0; /* Optional: add spacing around the images */
@@ -96,7 +96,7 @@ footer .sociallinks img {
     height: auto; /* Maintain aspect ratio */
 }
 
-/* Headers*/
+/* Consolidated Headers */
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Oswald', sans-serif;
 }
