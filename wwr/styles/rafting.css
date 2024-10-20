@@ -105,3 +105,35 @@ h1, h2, h3, h4, h5, h6 {
 body, p {
     font-family: 'Lato', sans-serif;
 }
+
+.contact-info, .employee-profiles, .contact-form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: var(--accent1-color); /* Light background for sections */
+    color: var(--bg-color); /* Dark text */
+}
+
+.employee-profiles figure {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid var(--accent2-color);
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--secondary-color);
+}

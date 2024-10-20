@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Rafting Adventures for general inquiries, reservation questions, or suggestions. Find our contact information, location, and an easy-to-use form for your convenience.">
+    <meta name="author" content="Michael Andrés López Chaves">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles/rafting.css">
+    
+    <!-- Title of the page -->
+    <title>Contact Rafting Adventures | Get in Touch</title>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/rafting-logo.webp" alt="Rafting Adventures Logo" class="logo">
+            <nav>
+                <a href="index.html">Rafting Site Plan Index</a>
+                <a href="about.html">About</a>
+                <a href="trips.html">Rafting Site Plan Trips</a>
+                <a href="contact.html">Rafting Site Plan Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h1>Contact Us</h1>
+        
+        <!-- Company Contact Information -->
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>Address: 123 Rafting Ave, Adventure City, CO</p>
+            <p>Phone: +1 (800) 123-RAFT</p>
+            <p>Email: info@raftingadventures.com</p>
+
+            <!-- Embedded Google Map -->
+            <iframe src="https://www.google.com/maps/embed?pb=..." width="600" height="450" style="border:0" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+
+        <!-- Employee Profiles -->
+        <section class="employee-profiles">
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/employee1.jpg" alt="John Doe - Adventure Guide">
+                <figcaption>John Doe - Adventure Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee2.jpg" alt="Jane Smith - Reservations Manager">
+                <figcaption>Jane Smith - Reservations Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee3.jpg" alt="Sam Lee - Customer Service">
+                <figcaption>Sam Lee - Customer Service</figcaption>
+            </figure>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label>Purpose of Your Message:</label>
+                <input type="radio" id="inquiry" name="purpose" value="inquiry">
+                <label for="inquiry">General Inquiry</label>
+                <input type="radio" id="reservation" name="purpose" value="reservation">
+                <label for="reservation">Reservation Question</label>
+                <input type="radio" id="suggestion" name="purpose" value="suggestion">
+                <label for="suggestion">Website Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>©️2024 | Rafting Adventures | Michael Andres Lopez Chaves</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+        </nav>
+        <a href="wireframe-contact.html">View Contact Us Wireframe</a>
+    </footer>
+</body>
+</html>
